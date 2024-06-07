@@ -1,10 +1,8 @@
-# person-action-object
+# My system for memorizing 1000 digits of Pi
 
-My personal Person-Action-Object (PAO) system for memorizing 1000 digits of Pi
+My system is based on the Person-Action-Object (PAO) system, which allows associating a set of digits with a mental scene composed of a character, an action, and an object. Each character, action, and object is coded by a number ranging from 00 to 99, translating to two digits per mental object. Therefore, one scene corresponds to 6 digits. To memorize 1000 digits, I need to place 167 scenes in my mental palaces (my university, my room, my street, etc.).
 
-Voici mon système de mémorisation pour retenir les 1000 décimales de Pi. Il est basé sur le système Personnage - Action - Objet (PAO), qui me permet d'associer un ensemble de chiffres à une scène mentale composée d'un personnage, d'une action et d'un objet. Chaque personnage, action et objet est codé par un nombre allant de 00 à 99, soit deux chiffres par objet mental. Une scène correspond donc à 6 chiffres. Pour retenir 1000 décimales, il faut placer 167 scènes dans mes palais mentaux (mon université, ma chambre, ma rue, etc.). 
-
-Pour accélérer le rappel des objets mentaux, j'ai appliqué plusieurs contraintes sur les personnages, actions et objets. Premièrement, les objets mentaux sont organisés en catégorie. Par exemple, les objets de 70 à 79 sont des outils et les personnages de 50 à 59 sont des sportifs. Voici le tableau qui organise les objets mentaux. Chaque dizaine est organisée par une catégorie : 
+I applied several constraints on the characters, actions, and objects to accelerate the recall of mental objects. Firstly, the mental objects are organized into categories as follows:  
 
 | Category           | Action                | Object            |
 |--------------------|-----------------------|-------------------|
@@ -19,13 +17,10 @@ Pour accélérer le rappel des objets mentaux, j'ai appliqué plusieurs contrain
 | 8 Videogames       | 8 Venir en tenue de   | 8 Vetements       |
 | 9 Pokemon          | 9 Piéger/emPêcher     | 9 Plantes         |
 
+For example, the objects from 70 to 79 are tools, and the characters from 50 to 59 are athletes. I also use the Dominic system, which associates numbers with letters: K/C = 0, L = 1, 2 = N, 3 = M, 4 = R, 5 = S, 6 = D, 7 = T, 8 = V, 9 = P/B.
 
-J'utilise aussi le dominic system, qui associe des chiffres à des lettres. Voici mon dominic system : K/C = 0, L = 1, 2 = N, 3 = M, 4 = R, 5 = S, 6 = D, 7 = T, 8 = V, 9 = P/B. 
+I can quickly decode a mental object without learning its corresponding number. For example, consider a mental scene containing the character Daft Punk. Daft Punk is a singer (1), and the first letter of the character is D (2), so the number corresponding to Daft Punk is 12. I decoded the mental object Daft Punk without knowing the association between Daft Punk and 12 beforehand. Thus, I place the scenes in my mental palaces to memorize Pi. Then, during recitation, I decode the scenes without needing to learn my PAO system, thanks to the categorization of mental objects and the Dominic system. Regular practice (15 minutes a day) makes memorizing 1000 decimal places in less than a month possible. This file contains my system and the 167 scenes corresponding to the 1000 digits of Pi.
 
-Avec la catégorisation et le dominic system, je peux rapidement décoder un objet mental, sans apprendre son nombre correspondant. Par exemple, considérons qu'une scène mentale contient le personnage Daft Punk. Daft Punk est un chanteur (1) et la première lettre du personnage est D (2), donc le nombre correspondant à Daft Punk est 12. J'ai réussi à décoder l'objet mentale Daft Punk sans connaitre au préalable l'association entre Daft Punk et 12. Ainsi, pour retenir Pi rapidement, je place les scènes dans mes palais mentaux. Ensuite, lors de la récitation, je décode les scènes sans devoir apprendre mon système PAO, grâce à la catégorisation des objets mentaux et au dominic system. Avec un entrainement régulier (15 minutes par jour), il est possible de retenir 1000 décimales en moins d'un mois. 
-
-Le fichier .xlsx contient les 100 personnages, actions et objets organisés selon les catégories et le dominic system. Il contient aussi les 167 scènes correspondant aux 1000 décimale de Pi. 
-
-Voici ma vidéo où je récite les premières décimales de Pi : 
+Video where I recite 1000 digits of Pi:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ugPApy2C1lk/0.jpg)](https://www.youtube.com/watch?v=ugPApy2C1lk)

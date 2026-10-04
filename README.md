@@ -22,9 +22,26 @@ Download [pao_system.xlsx](pao_system.xlsx) and open the first sheet in Excel or
 | H–J | Three number pairs per scene |
 | L–N | The corresponding people, actions, and objects |
 
-Use the mappings as a starting point and replace unfamiliar entries with ones you can picture easily. Categories help recall: people 50–59 are athletes, and objects 70–79 are tools.
+Use the mappings as a starting point and replace unfamiliar entries with ones you can picture easily.
 
 The workbook contains 165 filled scene rows. Encoding 1,000 digits entirely in six-digit scenes would require 167 locations.
+
+## Categories
+
+The first digit identifies a category. People 50–59 are athletes, for example, and objects 70–79 are tools. These are the original French labels used to organize the workbook.
+
+| Numbers | People | Actions | Objects |
+| --- | --- | --- | --- |
+| 00–09 | Combat (LoL) | Cuisiner | Corps |
+| 10–19 | Lyrique | Lancer | Aliments |
+| 20–29 | aNimateur | oNomatopées | Animaux |
+| 30–39 | Monde (politique) | fait dans la Maison | dans la Maison |
+| 40–49 | Héros (bd) | Rouler | Arthropodes |
+| 50–59 | Sportif | Esquisser | Instruments |
+| 60–69 | Disney | Détruire | Drapeaux de |
+| 70–79 | Tv show | Travailler | Outils |
+| 80–89 | Videogames | Venir en tenue de | Vetements |
+| 90–99 | Pokemon | Piéger/emPêcher | Plantes |
 
 ## License
 

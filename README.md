@@ -1,26 +1,31 @@
-# My system for memorizing 1000 digits of Pi
+# Person-action-object memory system
 
-My system is based on the Person-Action-Object (PAO) system, which allows associating a set of digits with a mental scene composed of a character, an action, and an object. Each character, action, and object is coded by a number ranging from 00 to 99, translating to two digits per mental object. Therefore, one scene corresponds to 6 digits. To memorize 1000 digits, I need to place 167 scenes in my mental palaces (my university, my room, my street, etc.).
+**Memorize numbers as scenes.**
 
-I applied several constraints on the characters, actions, and objects to accelerate the recall of mental objects. Firstly, the mental objects are organized into categories as follows:  
+My person-action-object (PAO) workbook for memorizing digits of pi. Turn each six-digit block into a scene, then place scenes along a familiar route in a memory palace.
 
-| Category           | Action                | Object            |
-|--------------------|-----------------------|-------------------|
-| 0 Combat (LoL)     | 0 Cuisiner            | 0 Corps           |
-| 1 Lyrique          | 1 Lancer              | 1 Aliments        |
-| 2 aNimateur        | 2 oNomatopées         | 2 Animaux         |
-| 3 Monde (politique)| 3 fait dans la Maison | 3 dans la Maison  |
-| 4 Héros (bd)       | 4 Rouler              | 4 Arthropodes     |
-| 5 Sportif          | 5 Esquisser           | 5 Instruments     |
-| 6 Disney           | 6 Détruire            | 6 Drapeaux de     |
-| 7 Tv show          | 7 Travailler          | 7 Outils          |
-| 8 Videogames       | 8 Venir en tenue de   | 8 Vetements       |
-| 9 Pokemon          | 9 Piéger/emPêcher     | 9 Plantes         |
+[Open the workbook](pao_system.xlsx) · [Watch me recite 1,000 digits of pi](https://www.youtube.com/watch?v=ugPApy2C1lk)
 
-For example, the objects from 70 to 79 are tools, and the characters from 50 to 59 are athletes. I also use the Dominic system, which associates numbers with letters: K/C = 0, L = 1, 2 = N, 3 = M, 4 = R, 5 = S, 6 = D, 7 = T, 8 = V, 9 = P/B.
+## How it works
 
-I can quickly decode a mental object without learning its corresponding number. For example, consider a mental scene containing the character Daft Punk. Daft Punk is a singer (1), and the first letter of the character is D (2), so the number corresponding to Daft Punk is 12. I decoded the mental object Daft Punk without knowing the association between Daft Punk and 12 beforehand. Thus, I place the scenes in my mental palaces to memorize Pi. Then, during recitation, I decode the scenes without needing to learn my PAO system, thanks to the categorization of mental objects and the Dominic system. Regular practice (15 minutes a day) makes memorizing 1000 decimal places in less than a month possible. The file pao_system.xlsx contains my system and the 167 scenes corresponding to the 1000 digits of Pi.
+Each number from 00 to 99 maps to a person, an action, and an object. For `123456`, imagine **person 12** performing **action 34** with **object 56**.
 
-Video where I recite 1000 digits of Pi:
+Place that scene at a familiar location. To recall the digits, follow your route and decode each scene back into three pairs.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ugPApy2C1lk/0.jpg)](https://www.youtube.com/watch?v=ugPApy2C1lk)
+## Use the workbook
+
+Download [pao_system.xlsx](pao_system.xlsx) and open the first sheet in Excel or LibreOffice. The entries are in French.
+
+| Columns | Contents |
+| --- | --- |
+| A–F | The 00–99 mappings for people, actions, and objects |
+| H–J | Three number pairs per scene |
+| L–N | The corresponding people, actions, and objects |
+
+Use the mappings as a starting point and replace unfamiliar entries with ones you can picture easily. Categories help recall: people 50–59 are athletes, and objects 70–79 are tools.
+
+The workbook contains 165 filled scene rows. Encoding 1,000 digits entirely in six-digit scenes would require 167 locations.
+
+## License
+
+[MIT](LICENSE).
